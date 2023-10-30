@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&family=Playfair+Display:wght@400;500&family=Rubik:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply font-rubik
+    }
+    h1{
+        @apply text-[84px] font-Playfair-Display
+    }
+    h2{
+        @apply text-[64px] text-[#172432] font-Playfair-Display
+    }
+    h4{
+        @apply text-[28px] text-[#767E86] font-Mulish
+    }
+    p{
+        @apply text-xl
+    }
+}
+
+@layer components{
+    .c-container {
+        @apply max-w-screen-xl mx-auto py-14 px-5 md:px-10
+    }
+}
